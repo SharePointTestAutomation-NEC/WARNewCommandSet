@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "http://tc3-v-devsp05/sites/war/Lists/WAR",
+      "customActions": {
+        "d3ed6693-8f1e-42df-a024-ef954d45951d": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "warNewCommandSet": {
+      "pageUrl": "http://tc3-v-devsp05/sites/war/Lists/WAR",
+      "customActions": {
+        "d3ed6693-8f1e-42df-a024-ef954d45951d": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
